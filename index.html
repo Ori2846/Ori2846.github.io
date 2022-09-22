@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="static/styles.css" />
+    <title>Henry Do</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://henrydo.org/" class="link"
+          >HD.</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Henry Do.</span></h1>
+        <h2 class="about__role">Back-end Developer</h2>
+        <h3 class="about__role">Game Developer</h3>
+        <p class="about__desc">
+          Born in Vancouver, Canada &#127464;&#127462;  Living in SoCal with a passion for programming! This page
+          explores the multitude of projects and other miscellaneous works. A little
+          bit about myself, I am currently a Socal junior in highschool working jobs
+          such as waiter, python freelancer, and crypto-miner. My inquires are below.
+        </p>
+
+        <div class="about__contact center">
+          <a href="/static/resume.pdf" download>
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+          <a
+            href="https://github.com/Ori2846"target="_blank"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://ori-tren.itch.io/rolling-cuboid"target="_blank"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-itch-io"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Freelanced Work</h3>
+            <p class="project__description">
+              A quantity of discord made, requested from Fiverr clients.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Python-Flask</li>
+              <li class="project__stack-item">DiscordPy - DiscordAPI</li>
+            </ul>
+
+            <a
+              href="https://github.com/Ori2846/discordPy_bots"target="_blank"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Remade 2.5D Zombie Game</h3>
+            <p class="project__description">
+              A remake of Zombieville USA 2 a game played in my childhood
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Unity</li>
+              <li class="project__stack-item">C#</li>
+            </ul>
+
+            <a
+              href="https://github.com/Ori2846/ZVUSA2/blob/main/README.md"target="_blank"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://phobowl.itch.io/project-z"target="_blank"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Combat ZPD</h3>
+            <p class="project__description">
+              First ever published game. Taking inspiration from mario and a variety of 2010 era ios games
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Unity-GameEngine</li>
+              <li class="project__stack-item">C#</li>
+            </ul>
+
+            <a
+              href="https://play.google.com/store/apps/details?id=com.PantherDoBros.CombatZPDNorthKorea&hl=en_US&gl=US"target="_blank"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-google-play"></i>
+            </a>
+          </div>
+          <div class="project">
+            <h3>Running man</h3>
+            <p class="project__description">
+              3D running project consisting of man model running on terrain
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Unity-GameEngine</li>
+              <li class="project__stack-item">C#</li>
+            </ul>
+
+            <a
+              href="https://github.com/Ori2846/3drunner"target="_blank"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+          </div>
+          <div class="project">
+            <h3>Browser based video player</h3>
+            <p class="project__description">
+              On the go video player using Home server to store movie files.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Flask</li>
+            </ul>
+
+            <a
+              href="https://github.com/Ori2846/PirateWebsite"target="_blank"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+          </div>
+          <div class="project">
+            <h3>LuckyPandaHosting</h3>
+            <p class="project__description">
+              Server Hosting Business for games. Fully functional and automated process. Running off ionos dedicated server and home servers.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML - JavaScript - CSS</li>
+              <li class="project__stack-item">PHP 7</li>
+              <li class="project__stack-item">Docker</li>
+              <li class="project__stack-item">WHMCS</li>
+              <li class="project__stack-item">SQL</li>
+            </ul>
+
+            <a
+              href="https://github.com/Ori2846/BizGraveyard"target="_blank"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+          </div>
+          <div class="project">
+            <h3>Multiplayer FPS</h3>
+            <p class="project__description">
+              Low Poly 3D FPS. Using Photon as networking framework enabling co-op.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Unity</li>
+              <li class="project__stack-item">C#</li>
+              <li class="project__stack-item">Photon Unity Networking framework</li>
+            </ul>
+
+            <a
+              href="https://github.com/Ori2846/MultiplayerFPSLowPoly"target="_blank"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+
+          </div>
+          <div class="project">
+            <h3>TheCryptoLights</h3>
+            <p class="project__description">
+              Successful Small business selling merch from crypto pumps.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Marketing</li>
+            </ul>
+
+            <a
+              href="https://thecryptolights.com/"target="_blank"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+                    <div class="project">
+            <h3>Custom Cloud Storage</h3>
+            <p class="project__description">
+              Bluetooth was way too slow.
+              Made my own Google Drive.
+              As efficient as your wifi will allow.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">HTML - CSS</li>
+            </ul>
+
+            <a
+              href="https://github.com/Ori2846/CloudStorage"target="_blank"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+          </div>
+                    <div class="project">
+            <h3>Crypto trading Game</h3>
+            <p class="project__description">
+              A charts game of pure luck. Made as a foundation for Congressional App Challenge
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Unity</li>
+              <li class="project__stack-item">C#</li>
+            </ul>
+
+            <a
+              href="https://github.com/Ori2846/TradingGame"target="_blank"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+          </div>
+          <div class="project">
+            <h3>Congressional App challenge</h3>
+            <p class="project__description">
+              CAC submission
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Unity</li>
+              <li class="project__stack-item">C#</li>
+            </ul>
+
+          </div>
+          <div class="project">
+            <h3>Teaching Code</h3>
+            <p class="project__description">
+              After repeatedly having to try and learn code off YouTube. I found it difficult to find the perfect video for a newbie. Here is my attempt on teaching new Unity Coders
+              <br></br>
+              <a href="https://www.youtube.com/watch?v=RelKvjd66lc&t=6s&ab_channel=OriTren"target="_blank">URL Link</a>
+            </p>
+
+            <ul class="project__stack">
+              <li class="project__stack-item">Unity</li>
+              <li class="project__stack-item">C#</li>
+            </ul>
+
+          </div>
+                    <div class="project">
+            <h3>Raspberry Pi Automated Lights</h3>
+            <p class="project__description">
+              using UnityEngine.Networking to talk to Raspberry Pi flask server connected to a 4 channel relay to turn off and on room light.
+              <br></br>
+              <a href="https://github.com/Ori2846/HTTP-AutomatedLights"target="_blank">URL Link</a>
+            </p>
+
+            <ul class="project__stack">
+              <li class="project__stack-item">Unity</li>
+              <li class="project__stack-item">C#</li>
+            </ul>
+
+          </div>
+
+        </div>
+
+
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">PHP</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">Lua</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">C#</li>
+          <li class="skills__list-item btn btn--plain">Java</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:hdo2846@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://github.com/"
+        class="link footer__link"
+      >
+
+      </a>
+    </footer>
+
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+
+    <script src="static/script.js"></script>
+  </body>
+</html>
